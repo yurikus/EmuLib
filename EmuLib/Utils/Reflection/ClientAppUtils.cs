@@ -15,9 +15,9 @@ namespace EmuLib.Utils.Reflection
             return null;
         }
 
-        public static GInterface24 GetBackendSession()
+        public static GInterface22 GetBackendSession()
         {
-            GInterface24 session = GetClientApp()?.GetClientBackEndSession();
+            GInterface22 session = GetClientApp()?.GetClientBackEndSession();
             if (session != null) return session;
 
             Debug.LogError("ClientAppUtils GetBackendSession() method. BackEndSession is null");
@@ -26,7 +26,7 @@ namespace EmuLib.Utils.Reflection
 
         public static string GetSessionId()
         {
-            GInterface24 backend = GetBackendSession();
+            GInterface22 backend = GetBackendSession();
             return backend?.Profile == null ? "-1" : backend.GetPhpSessionId();
         }
     }

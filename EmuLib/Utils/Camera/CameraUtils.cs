@@ -7,12 +7,12 @@ using EFT.InventoryLogic;
 using UnityEngine;
 using static EmuLib.Utils.Reflection.PrivateValueAccessor;
 using Object = UnityEngine.Object;
-using HealthControllerInterface = GInterface136;
-using HealthEffectInterface = GInterface108;
+using HealthControllerInterface = GInterface134;
+using HealthEffectInterface = GInterface106;
 using BodyPartStruct = GStruct184;
-using PlayerStatesInterface = GInterface108;
-using StimulatorBuffEventInterface = GInterface107;
-using HealthEffects = GClass1299;
+using PlayerStatesInterface = GInterface106;
+using StimulatorBuffEventInterface = GInterface105;
+using HealthEffects = GClass1305;
 
 namespace EmuLib.Utils.Camera
 {

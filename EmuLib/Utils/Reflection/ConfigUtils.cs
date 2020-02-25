@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using UnityEngine;
-using IniConfig = GClass405;
+using IniConfig = GClass406;
 using GameConfig = GClass261;
 
 namespace EmuLib.Utils.Reflection
