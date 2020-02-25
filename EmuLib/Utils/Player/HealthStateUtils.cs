@@ -1,7 +1,7 @@
 ﻿using EFT.HealthSystem;
 using EmuLib.Utils.HTTP;
 using EmuLib.Utils.Reflection;
-using PlayerStatesInterface = GInterface108;
+using PlayerStatesInterface = GInterface106;
 
 namespace EmuLib.Utils.Player
 {

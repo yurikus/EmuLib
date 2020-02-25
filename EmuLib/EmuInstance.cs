@@ -42,7 +42,6 @@ namespace EmuLib
 
             // run monitoring utils
             RunMonitoringWithPeriod(game);
-
             CreatePlayerOwnerMonitor.CheckCreatePlayerOwnerCallBack(game);
         }
 
